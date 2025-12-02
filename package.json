@@ -4,7 +4,7 @@
   "description": "SnifferPrice - Pet Price Comparison Platform",
   "main": "src/server.ts",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "node dist/server.ts",
     "dev": "ts-node --watch src/server.ts",
     "build": "tsc"
   },
