@@ -8,4 +8,8 @@ const pool = new Pool({
   ssl: { rejectUnauthorized: false }
 });
 
+pool.on('error', (err) => {
+  console.error('Erro no pool de conexão:', err);
+});
+
 export default pool;
